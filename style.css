@@ -1,0 +1,63 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.borderCard{
+  width: 60%;
+  border: 1px solid;
+  margin-left: 5rem;
+  margin-top: 3rem;
+}
+
+.borderCard input{
+  padding: 2px;
+  margin-left: 40px;
+  border: 1px solid #000;
+}
+
+.borderCard button{
+  padding: 4px;
+  border: none;
+  background-color: mediumseagreen;
+  border-radius: 5px;
+  color: #fff;
+  width: 63%;
+  margin-left: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.borderCard input::placeholder {
+  font-size: 0.8em;
+  color: #000;
+}
+
+.borderCard input:focus{
+  outline: none;
+}
+
+.card img{
+  width: 70%;
+  padding-left: 1.5em;
+  padding-top: 0.5em;
+  border-radius: 10px;
+}
+
+.card p{
+  width: 70%;
+  padding-left: 2rem;
+  font-size: 15px;
+}
+
+h3{
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 3px;
+  font-size: 14px;
+}
+
+
+
+
