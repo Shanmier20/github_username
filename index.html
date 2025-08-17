@@ -24,7 +24,7 @@
     const { avatar_url, bio } = await res.json();
     document.getElementById("profile").innerHTML = `
  <div class="card">
- <img src="${avatar_url}"/>
+ <img src="${avatar_url} width="100%"/>
  <p>${bio || "No bio available."}</p>
  </div>`;
   } catch {
